@@ -49,7 +49,7 @@ def foo():
 		content[ci] = cont
 
 	for cont in content:
-		print cont
+		print (cont)
 	data = {}
 	data['titles'] = content
 	return render_template('index.html', result=data, ti=content)
